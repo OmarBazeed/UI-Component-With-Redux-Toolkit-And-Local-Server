@@ -1,0 +1,24 @@
+form {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    display: block;
+    width: 80%;
+    margin-top: 20px;
+    padding: 10px 15px;
+    box-shadow: 3px 2px 3px 0px black;
+    font-size: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type=submit] {
+    background-color: brown;
+    cursor: pointer;
+}

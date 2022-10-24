@@ -1,0 +1,25 @@
+.side {
+    width: 300px;
+    height: calc(100vh - 71px);
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: antiquewhite;
+    height: 100%;
+}
+
+ul li {
+    display: block;
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+ul li:not(:first-of-type) {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
